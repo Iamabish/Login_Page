@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url(../Assets/Background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+.container {
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+}
+
+.wrapper {
+    
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: 310px 310px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+h1 {
+    margin-top: 1.5rem;
+    font-size: 2rem;
+}
+
+h2 {
+    margin: 1rem 0;
+}
+.img-section {
+    background-color: #013243;
+    text-align: center;
+    
+}
+
+.img-section img {
+    width: 100%;
+    display: block;
+    margin-top: -4rem;
+    
+}
+
+
+
+.login-section {
+    color: #010100;
+    padding: 0.5rem 0 0 2.5rem;
+    background-color: #fff;
+    
+}
+
+
+
+input {
+    padding: 10px 35px;
+    border: 1px solid hsla(0, 0%, 0%, 0.3);
+    border-radius: 3px;
+    
+}
+
+.input-field {
+    margin: 0.3rem 0 1rem;
+}
+
+.label-section {
+    font-weight: 700;
+}
+
+button {
+    padding: 15px 60px;
+    border: none;
+    border-radius: 5px;
+    background-color: #013243;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.checkbox {
+    padding: 1rem;
+    padding-left: 0;
+    font-weight: 500;
+}
+
+
+
+
+
+span {
+    color: #013243;
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+@media (max-width: 620px ){
+    .wrapper {
+        grid-template-columns: 300px;
+    }
+}
+
+
+
